@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        /*$(function () { /!*相当于window.onload*!/
+             $("#001").click(function () {      //获取标签对象，然后用标签对象去调用click函数
+                  alert("lll")
+             })
+        })*/
+      /* $(function () {
+           $("   用户名<input type=\"text\">\n" +
+               "     <span>\n" +
+               "\n" +
+               "     </span>\n" +
+               "        <button id=\"001\">按钮</button>").appendTo("body") ;
+       })
+           $(function () {
+               $("#001").click(function () {
+                   var $hobby = $("hobby");
+                   for(var i=0;i<$hobby;i++){
+                        $hobby[i].checked=true;
+                   }
+
+               })
+
+           })*/
+       $(function () {
+           var id = document.getElementById("001");
+           alert($(id)[0]);
+       })
+
+    </script>
+</head>
+<body>
+         兴趣爱好:<input type="checkbox" name="hobby"> 王者
+         <input type="checkbox" name="hobby"> 篮球
+        <button  id="001">全选</button>
+
+</body>
+</html>
