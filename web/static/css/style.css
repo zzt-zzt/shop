@@ -1,0 +1,1300 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 121px;
+    
+
+}
+#head{
+    height: 121px;
+    width:1190px ;
+    border: 1px red solid;
+    margin: 0px  auto;
+}
+.head-left{
+    overflow: hidden;
+    height: 121px;
+    width: 326px;
+
+    float: left;
+}
+/*顶部中间大盒子*/
+.head-center{
+    height: 100px;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 0px;
+
+    float: left;
+}
+.head-right{
+    height: 121px;
+    width: 300px;
+    float: right;
+}
+/*搜索框*/
+#head-center-search{
+    overflow: hidden;
+    width: 460px;
+    height: 36px;
+
+    margin-top: 32px;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    border-radius: 20px;/*圆角属性*/
+    float: left;
+    border:2px orange solid;
+
+}
+/*搜索框里面的输入框*/
+#head-center-input{
+    width: 300px;
+    height: 30px;
+    margin: 3px 5px;
+    float: left;
+    border: none;
+    outline: 0;
+}
+#head-center-button{
+    height: 36px;
+    width: 60px;
+    background-color: red;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;/*!*设置文字大写*!*/
+    color: white;/*!*设置文字颜色*!*/
+}
+#head-rignt-weclome{
+    margin: 50px 5px;
+    font-size: 20px;
+}
+/*中间轮播图那个最大容器*/
+.center{
+    height: 330px;
+    width:1190px ;
+    border: 1px red solid;
+    margin: 10px  auto;
+}
+#center-left{
+    height: 330px;
+    width:200px;
+    border: 1px red solid;
+    float: left;
+
+
+
+}
+#prodect-catagory{
+    height: 40px;
+    width: 70px;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #000;: ;
+    margin: 10px auto;
+    border: 1px red solid;
+    text-align: center;
+}
+.prodect-catagory{
+    height: 20px;
+    width:60px ;
+    margin: 10px 15px 10px 20px;
+    border: 1px red solid;
+    text-align: center;
+    float: left;
+    font-size: 14px;
+}
+/*轮播图*/
+#center-center1{
+    overflow: hidden;/*溢出的部分隐藏*/
+    width: 520px;
+    height: 280px;
+    border: 1px solid red;
+    margin: 20px 10px;
+    float: left;
+    position: relative;/*相对定位*/
+}
+.container{
+    width: 500%;
+    height: 280px;
+    left: 0%;
+    position: absolute;/*绝对定位*/
+}
+.btn-list{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;/*移动到父元素的二分之一*/
+    margin-left:-35px;
+    width: 70px;
+    height: 10px;
+    background-color: rgba(255,255,255,0.6);/*设置透明颜色*/
+    border-radius: 7px;/*圆角属性*/
+
+}
+.btn{
+    width: 8px;
+    height: 8px;
+    float: left;/*全部向左浮动*/
+    /*设置外间距*/
+    margin: 1px 3px;
+    background-color: white;
+    border-radius: 50%;/*圆角属性 -50%直接变为圆形*/
+}
+#center-center2{
+       width: 160px;
+       height: 280px;
+    border:1px orange solid;
+    float: left;
+    margin: 20px 0px;
+
+}
+#center-right{
+    width: 260px;
+    height: 200px;
+    border:2px orange solid;
+    float: right;
+    margin: 50px 10px;
+
+}
+#center-right-on{
+    width: 260px;
+    height: 100px;
+    border:1px orange solid;
+}
+/*头像上传区域*/
+#touxiang{
+    overflow: hidden;
+     width: 70px;
+    height: 70px;
+    margin: 20px  80px;
+    border:1px orange solid;
+    border-radius: 50%;/*直接变为圆形*/
+
+}
+
+/*注册 登录 区域*/
+.login{
+    width: 55px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 7px;
+    margin:35px 14px;
+    float: left;
+    text-align: center;
+    font-size: 12px;/*!*设置文字大写*!*/
+    color: white;/*!*设置文字颜色*!*/
+}
+.login1{
+    width: 70px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 7px;
+    margin:35px 30px;
+    float: left;
+    text-align: center;
+    font-size: 12px;/*!*设置文字大写*!*/
+    color: white;/*!*设置文字颜色*!*/
+}
+.show-cart{
+    width: 1121px;
+    height: 120px;
+    border:1px orange solid;
+    margin: 0px auto 0;
+
+}
+#show-cart{
+    width: 400px;
+    height: 100px;
+    border:1px orange solid;
+   float: left;
+
+}
+#wu{
+    width: 300px;
+    height: 100px;
+    margin:0px 15px ;
+    float: left;
+
+}
+#logo{
+    float: right;
+    margin: 15px 50px;
+}
+/*商品展示*/
+.showProduct{
+    width: 240px;
+    height: 360px;
+    margin: 2px 25px 10px;
+    border:1px orange solid;
+    float: left;
+}
+/*#page-nav{
+    width: 1000px;
+    height: 10px;
+    margin: auto;
+
+    text-align: center;
+    border:1px blue  solid;
+
+
+}*/
+.center-btn{
+    background-color: orange;
+    text-align: center;
+    font-size: 12px;/*!*设置文字大写*!*/
+    color: white;/*!*设置文字颜色*!*/
+    border: none;
+    outline: 0;/*使之没有边框*/
+}#select-btn{
+
+
+     text-align: center;
+     font-size: 14px;/*!*设置文字大写*!*/
+     color: white;/*!*设置文字颜色*!*/
+     border: none;
+     outline: 0;/*使之没有边框*/
+   background-color: red;
+ }
+ /*商品图片*/
+ .product-image{
+     width: 220px;
+     height: 220px;
+     margin: 5px 15px 0;
+     border:1px orange solid;
+
+ }
+ /*商品价格*/
+ .product-price{
+     width: 220px;
+     height: 22px;
+     border:1px orange solid;
+     margin: 0 15px;
+ }
+ /*商品描述*/
+ .product-describe{
+     width: 220px;
+     height: 36px;
+     border:1px orange solid;
+     margin: 5px 15px;
+     text-align: center;
+     font-family: Arial;
+     font-size: 13px;
+     color: black;
+ }
+ /*商家地址*/
+ .product-location{
+     margin: 5px 15px 0;
+     border:1px orange solid;
+     width: 220px;
+     height: 30px;
+ }
+ /*价钱那个￥符号*/
+ .product-price-fuhao{
+     width: 10px;
+     height: 20px;
+     color: #ff4400;
+     margin: 0px 3px 0px 0px;
+     float: left;
+ }
+ /*真正多少钱了*/
+.product-price1{
+    width: 60px;
+    height: 20px;
+    color: #ff4400;
+    border:1px orange solid;
+    float: left;;
+
+}
+/*是否包邮*/
+.product-price-baoyou{
+    width: 27px;
+    height: 14px;
+    float: left;
+    margin: 3px 3px 3px 3px;
+}
+/*销售量*/
+.product-price-sales{
+    width: 70px;
+    height: 20px;
+    border:1px orange solid;
+    margin: 1px 3px 3px 20px;
+    float: right;
+    font-family: "Arial Black";
+    font-size: 10px;
+    color: black;
+    text-align: center;
+
+}
+.add-cart{
+    width: 100px;
+    height: 17px;
+    margin: 5px 10px;
+    float: right;
+    font-family: Arial;
+    font-size: 13px;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    outline: 0px;
+}
+.location{
+    text-align: center;
+    margin: 5px 10px;
+    font-family: Arial;
+    font-size: 14px;
+    float: right;
+}
+#cart-count{
+    margin: 10px 6px;
+    text-align: center;
+    font-size: 20px;
+    color: #ff4400;
+}
+#cart-last{
+    margin: 20px 6px;
+    text-align: center;
+    font-size: 20px;
+    color: #ff4400;
+}
+.head-logo{
+    width: 100%;
+    height: 150px;
+    border: 1px red solid;
+    /*background-color: #ff4812;*/
+}
+#login-center{
+    width:80%;
+    height: 340px;
+   /* border: 1px red solid;*/
+    margin: 30px auto 50px;
+}
+
+.login-center-left{
+    width:500px;
+    height: 340px;
+    margin: 0 100px;
+    /* border: 1px red solid;*/
+    float: left;
+    position: absolute;
+
+}
+.login-center-right{
+    width:400px;
+    height: 360px;
+    margin: 0 100px 100px;
+   /* border: 1px red solid;*/
+    float:right;
+    background-color: white;
+}
+#login-weclome{
+    margin: 200px auto;
+    float: left;
+    outline: 0;
+    border: none;
+}
+#head-logo{
+    margin: 0px 20px;
+
+    float: left;
+}
+.login-head{
+    width: 350px;
+    height: 40px;
+    margin: 20px auto 10px;
+
+}
+.login-tip{
+    width: 350px;
+    height: 30px;
+    margin: 5px auto;
+    /*border: 1px red solid;*/
+}
+/*.login-username{
+    width: 350px;
+    height: 50px;
+    margin: 10px auto;
+    border: 1px red solid;
+}
+.login-password{
+    width: 350px;
+    height: 50px;
+    margin: 10px auto;
+    border: 1px red solid;
+}
+.login-summit{
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    border: 1px red solid;
+    background-color:green ;
+
+}*/
+#loginToRegist{
+    font-family:"Arial Black";
+    font-size: 17px;
+    color: #ff4400;
+    margin:5px 10px;
+    float: right;
+
+}
+#loginToRegist1{
+    font-family:"Arial Black";
+    font-size: 17px;
+    color: #ff4400;
+    margin:5px 10px;
+    float: right;
+
+}
+
+#login-tip {
+    font-size: 15px;
+    font-family: "Candara Light";
+    width: 300px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: #f5e106;
+    float: right;
+    text-align: left;
+}
+/*.login-username{
+    font-size: 17px;
+    font-family: "Candara ";
+}
+.login-password{
+    font-size: 17px;
+    font-family: "Candara ";
+}
+.input{
+    width: 250px;
+    height: 40px;
+}*/
+/*#login-summit{
+    font-size: 17px;
+    font-family: "Candara ";
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    margin: 0px auto;
+
+}*/
+.form{
+    width: 350px;
+    height: 210px;
+    margin: 10px auto;
+    font-size: 17px;
+    font-family: "Candara ";
+}
+.formHiden{
+    width: 350px;
+    height: 210px;
+    margin: 10px auto;
+    font-size: 17px;
+    font-family: "Candara ";
+}
+.bigcontent{
+    width: 380px;
+    height: 230px;
+    margin: 0px auto;
+    font-size: 17px;
+    font-family: "Candara ";
+}
+
+.login-username{
+    width: 240px;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px #e3e3e3 solid;
+
+}
+.login-password{
+    width: 240px;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px #e3e3e3 solid;
+
+}
+.login-summit{
+    font-size: 17px;
+    font-family: "Candara ";
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 35px;
+    margin: 15px 20px 0px;
+    border: 1px red solid;
+    background-color: #ff3e2b;
+
+}
+.spanClient{
+    font-family:"Arial Black";
+    font-size: 20px;
+    margin:5px 10px;
+    float: left;
+
+}
+.spanManager{
+    font-family:"Arial Black";
+    font-size: 20px;
+    margin:5px 10px;
+    float: left;
+
+}
+
+.login-cente{
+    width: 100%;
+    height: 460px;
+    background-color: #39987c;
+    position: absolute;
+}
+.login-center-left{
+    width:500px;
+    height: 340px;
+    margin: 0 100px;
+    /* border: 1px red solid;*/
+    float: left;
+    position: absolute;
+
+}
+.login-center-right{
+    width:400px;
+    height: 340px;
+    margin: 0 100px 100px;
+    border: 1px red solid;
+    float:right;
+}
+#login-weclome{
+    margin: 200px auto;
+    float: left;
+}
+.regist-center-right{
+    width:400px;
+    height: 420px;
+    margin: 0 100px 100px;
+    /* border: 1px red solid;*/
+    float:right;
+    background-color: white;
+}
+#span{
+    font-family:"Arial Black";
+    font-size: 20px;
+    margin:30px 10px 10px;
+   /* border: 1px red solid;*/
+
+}.regsit-center-head{
+    width: 350px;
+    height: 40px;
+    margin: 10px auto 0;
+  /*  border: 1px red solid;*/
+ }
+ #span1{
+     width:160px ;
+     height: 30px;
+     margin: 5px 5px;
+    /* border: 1px red solid;*/
+     font-family:"Arial Black";
+     font-size: 20px;
+     float: left;
+
+ }
+ #error-info{
+     width:140px ;
+     height: 30px;
+     margin: 5px 5px;
+    /* border: 1px red solid;*/
+     font-family:"Arial Black";
+     font-size: 16px;
+     color: #ff4400;
+     float: right;
+ }
+ .form1{
+     overflow: hidden;
+     width:350px ;
+     height: 400px;
+     margin:0px auto;
+     /*border: 1px red solid;*/
+     font-family:"Arial Black";
+     font-size: 17px;
+
+ }
+ .regist-clientname{
+     width: 200px;
+     height: 33px;
+     margin: 6px auto;
+     border: 0 none;
+     border: 1px #e3e3e3 solid;
+ }
+.regist-password{
+    width: 200px;
+    height: 32px;
+    margin: 6px auto;
+    border: 0 none;
+    border: 1px #e3e3e3 solid;
+}
+.regist-username{
+    width: 200px;
+    height: 32px;
+    margin: 6px auto;
+    border: 0 none;
+    border: 1px #e3e3e3 solid;
+}
+.regist-phone{
+    width: 200px;
+    height: 32px;
+    margin: 6px auto;
+    border: 0 none;
+    border: 1px #e3e3e3 solid;
+}
+.regist-签名{
+    width: 200px;
+    height: 32px;
+    margin: 10px auto;
+    border: 0 none;
+    border: 1px #e3e3e3 solid;
+}
+.itxt{
+    border: 0 none;
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 5px;
+    width: 220px;
+    border: 1px #e3e3e3 solid;
+}
+.cart-head{
+    font-family: "宋体";
+    font-size: 24px;
+    margin: 100px 50px 10px;
+    right: 200px;
+    float: right;
+}
+.cart-center{
+    width: 1200px;
+    height: 100%;
+    border: 1px red solid;
+    margin: 0px auto;
+}
+.cart-center-head{
+    width: 1200px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px auto;
+}
+.cart-center-tip{
+    width:500px;
+    height: 60px;
+    border: 1px red solid;
+    margin: 10px 30px;
+    float: left;
+    font-family: "宋体";
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+}
+
+.div1{
+    width: 130px;
+    height: 60px;
+    border: 1px red solid;
+    margin: 10px 10px;
+    float: left;
+    font-family: "宋体";
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.cart-center-prouuct{
+    width: 1200px;
+    height: 150px;
+    border: 1px red solid;
+    margin: 0px auto;
+
+}
+.cart-shop{
+    width: 1200px;
+    height: 50px;
+    border: 1px #29ff8a solid;
+    margin: 0px auto;
+}
+.cart-center-product1{
+    width:1140px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px 30px 0px 20px;
+    float: left;
+    border: 1px red solid;
+}
+.checkbox{
+    height:40px;
+    width: 40px;
+    margin:30px 10px 0 0;
+    float: left;
+
+    border: 1px red solid;
+}
+.shop-name{
+    height:30px;
+    width: 100px;
+    margin: 30px 30px ;
+    border: 1px red solid;
+    text-align: center;
+}
+.checkbox1{
+    height: 20px;
+    width: 20px;
+    margin: 10px 10px;
+}
+.product-photo{
+    height:95px;
+    width: 100px;
+    margin: 0px 30px 0 0;
+    float: left;
+    border: 1px red solid;
+}
+.product-describe1{
+    height: 75px;
+    width: 200px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 30px 0 0;
+    float: left;
+    border: 1px red solid;
+}
+.div2{
+    width: 70px;
+    height: 30px;
+    padding: 30px;
+    border: 1px red solid;
+    margin: 0px 10px;
+    float: right;
+    font-family: "宋体";
+    font-size: 18px;
+    text-align: center;
+}
+.div3{
+    width: 130px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px 10px;
+    float: right;
+    font-family: "宋体";
+    font-size: 18px;
+    text-align: center;
+}
+
+.photo{
+    margin: 5px auto 5px;
+}
+.cart-clear{
+    width: 1200px;
+    height: 40px;
+    border: 1px red solid;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "宋体";
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.cart_span {
+    margin-left: 20px;
+}
+#pn_input{
+    width: 30px;
+}
+.manager-window{
+    width: 1200px;
+    height: 300px;
+    padding:200px  100px ;
+    font-family: "Arial Black";
+    font-size: 30px;
+    text-align: center;
+    border: 1px red solid;
+    margin: 150px auto;
+}
+.manger-product{
+    width: 1400px;
+    height: 600px;
+    border: 1px red solid;
+    margin:0px auto;
+}
+.manager-product-tip{
+    width: 1400px;
+    height: 100px;
+    border: 1px red solid;
+    margin:0px auto
+}
+.manger-product-info{
+    width: 1400px;
+    height: 100px;
+    border: 1px red solid;
+    margin:0px auto
+}
+.manger-product-add{
+    width: 1400px;
+    height: 60px;
+    border: 1px red solid;
+    margin:0px auto
+}
+.manager-tip{
+    width: 53px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 22px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+    padding:25px 35px ;
+
+}
+.manager-tip1{
+    width: 100px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 22px 0 5px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+    padding:25px 35px ;
+
+}
+.manager-photo{
+    height: 100px;
+    width: 107px;
+    margin: 0px 30px 0 25px;
+    float: left;
+    border: 1px red solid;
+}
+.manager-decribe{
+    width: 140px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 10px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 13px;
+    text-align: center;
+    padding:25px 35px ;
+}
+.manager-decribe1{
+    width: 210px;
+    height:100px;
+    border: 1px red solid;
+    margin: 0px 10px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 13px;
+    text-align: center;
+ /*   padding:25px 35px ;*/
+}
+.manager-product-price{
+    width: 50px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 20px 0 10px;
+    float: left;
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center;
+    padding:25px 35px ;
+
+}
+.manager-product-price1{
+    width: 84px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 10px 0 10px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 18px;
+    text-align: center;
+    padding:25px 35px ;
+}
+.manager-name {
+    width: 80px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px 10px 0 5px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+    padding: 25px 35px;
+}
+.manager-name2{
+    width: 140px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px 10px 0 5px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+
+}
+.manager-name2{
+    width: 140px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px 10px 0 5px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.manager-product-price2{
+    width: 140px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 0px 10px 0 10px;
+    float: left;
+    font-family: "Arial Black";
+    font-size: 18px;
+    text-align: center;
+
+}
+.manager-method{
+    width: 160px;
+    height: 48px;
+    border: 1px red solid;
+    margin: 0px 0px 0 0px;
+    float: right;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+    padding:26px 20px ;
+}
+.manager-method2{
+    width: 130px;
+    height: 48px;
+    border: 1px red solid;
+    margin: 0px 0px 0 0px;
+    float: right;
+    font-family: "Arial Black";
+    font-size: 16px;
+    text-align: center;
+    padding:26px 20px ;
+}
+.manager-method1{
+    width: 165px;
+    height: 8px;
+    border: 1px red solid;
+    margin: 0px 0px 0 100px;
+    float: right;
+    font-family: "Arial Black";
+    font-size: 18px;
+    text-align: center;
+    padding:26px 20px ;
+
+}
+.input-name{
+    width: 150px;
+    height: 60px;
+    font-size: 13px;
+
+    outline: none;
+   /* border: none;*/
+}
+.input-decribe{
+    width: 180px;
+    height: 60px;
+    font-size: 13px;
+    outline: none;
+    /*border: none;*/
+}
+.input-price{
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+#show-center{
+    width: 1192px;
+    height: 100px;
+    margin: 10px auto;
+    border: 1px red solid;
+}
+#footer{
+    width: 1192px;
+    height: 50px;
+    text-align: center;
+    border: 1px red solid;
+    margin:0 auto;
+}
+.decribe{
+    width: 190px;
+    height: 50px;
+    border: 1px red solid;
+    margin:25px auto;
+    text-align: center;
+
+}
+.update{
+    width: 120px;
+    height: 50px;
+    border: 1px red solid;
+    margin:20px auto;
+    text-align: center;
+    text-align: center;
+}
+#queren{
+    width: 100px;
+    height: 40px;
+    margin: 0px auto;
+    background-color: orange;
+    border-radius: 20px;
+
+}
+.detail-content{
+    width: 1100px;
+    height: 600px;
+    border: 1px red solid;
+    margin: 170px auto 0px;
+}
+.content-left{
+    width: 400px;
+    height: 500px;
+    margin: 50px 30px  50px 50px;
+    border: 1px red solid;
+    float: left;
+
+}
+.content-right{
+    width: 500px;
+    height: 500px;
+    margin: 50px 30px;
+    border: 1px red solid;
+    float: left;
+}
+.content-right-first{
+    width: 400px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 30px auto 0px;
+    font-size: 16px;
+    color: black;
+    font-family: "Arial Black";
+    font-weight: bolder;
+}
+.content-right-second{
+    width: 400px;
+    height: 80px;
+    border: 1px red solid;
+    margin: 0px auto 0px;
+    font-size: 16px;
+
+}
+.content-right-third{
+    width: 400px;
+    height: 40px;
+    border: 1px red solid;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.content-right-fourth{
+    width: 400px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px auto;
+    font-size: 16px;
+}
+.content-right-firth{
+    width: 400px;
+    height: 50px;
+    border: 1px red solid;
+    margin: 0px auto 0px;
+    font-size: 16px;
+}
+.content-right-last{
+    width: 400px;
+    height: 80px;
+    border: 1px red solid;
+    margin: 40px auto 0px;
+    font-size: 16px;
+}
+.content-right-second-left{
+    width:60px;
+    height: 20px;
+    border: 1px red solid;
+    margin: 20px 0px 20px 0px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+    float: left;
+}
+.content-right-third-left{
+    width:60px;
+    height: 15px;
+    border: 1px red solid;
+    margin: 4px 0px 0px 0px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+    float: left;
+}
+.content-right-third-right{
+    width:100px;
+    height: 30px;
+    border: 1px red solid;
+    margin: 4px 0px 0px 5px;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+    font-family: "Arial Black";
+    color: #ff4400;
+}
+.content-right-second-right{
+    width: 150px;
+    height: 50px;
+    margin: 15px 5px;
+    border: 1px red solid;
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Arial Black";
+    color: #ff4400;
+
+}
+.content-right-fourth-left{
+  width: 60px;
+    height: 30px;
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 20px;
+    font-family: "Arial Black";
+    border: 1px red solid;
+    font-size: 16px;
+    float: left;
+
+
+}
+
+.content-right-fourth-right{
+    width: 150px;
+    height: 40px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 20px;
+    font-family: "Arial Black";
+    border: 1px red solid;
+    font-size: 16px;
+    float: left;
+
+
+}
+.content-right-fourth-right1{
+    width: 200px;
+    height: 40px;
+    margin: 5px 5px;
+    line-height:35px;
+    font-family: "Arial Black";
+    border: 1px red solid;
+    font-size: 18px;
+    float: left;
+    padding: 0px 20px;
+
+}
+.tip1{
+    width: 40px;
+    height: 40px;
+    border: 1px red solid;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+
+
+}
+.tip3{
+    width: 30px;
+    height: 30px;
+    border: 1px red solid;
+    margin: 40px 0;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+.tip4{
+    width:50px;
+    height: 30px;
+    border: 1px red solid;
+    float: left;
+    margin: 30px 0px;
+}
+.tip2{
+    width:62px;
+    height: 40px;
+    border: 1px red solid;
+    float: left;
+
+
+}
+.xiema{
+    width: 62px;
+    height:40px ;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.xiema1{
+    width: 62px;
+    height:40px ;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.last{
+     width: 150px;
+    height: 50px;
+    margin: 15px  10px 15px ;
+    border: 1px red solid;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    background-color: orange;
+
+}
+.BigOrder{
+    width: 1000px;
+    height: 500px;
+    border: 1px red solid;
+    margin: 0px auto;
+}
+.ordid{
+    width: 500px;
+    height: 100px;
+    border: 1px red solid;
+    margin: 50px auto;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
