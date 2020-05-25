@@ -39,6 +39,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -55,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -268,12 +272,12 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.cartItemImplTest.addCart" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
       <item itemvalue="JUnit.ClientImplTest.queryMoney" />
       <item itemvalue="JUnit.mapTest.test" />
       <item itemvalue="JUnit.ManagerImplTest.saveManager" />
       <item itemvalue="JUnit.cartItemImplTest.updateCartItem" />
       <item itemvalue="JUnit.ProductImplTest.getAllProduct" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
     </list>
     <recent_temporary>
       <list>
@@ -394,10 +398,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589465639278" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1589507541239">
+    <state x="385" y="7" key="CommitChangelistDialog2" timestamp="1590378609945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1589507541239" />
+    <state x="385" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590378609945" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1590378609029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1590378609029" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1589536267818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
